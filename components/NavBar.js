@@ -23,7 +23,7 @@ function NavBar() {
             </svg>
           </button>
           {isOpen && (
-            <div className='absolute top-100 left-0 mx-4 gap-2'>
+            <div className='absolute top-100 left-0 gap-2'>
               <ul className='flex'>
                 <li class="mb-1">
                   <a class="block p-4 text-sm font-semibold text-gray-400 rounded" href="#">Beranda</a>
