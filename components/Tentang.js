@@ -4,7 +4,7 @@ const Font = Montserrat({ subsets: ['latin'] })
 
 function Tentang() {
     return (
-        <div className="text-white text-center mt-40" id='bagian_tentang_kami'>
+        <div className="text-white text-center mt-60 lg:mt-80 sm:mt-70" id='bagian_tentang_kami'>
             <div className={Font.className}>
                 <h1 className="text-transform: uppercase font-bold text-2xl" id='tentang_kami'>Tentang Kami</h1>
                 <div className='mx-4'>

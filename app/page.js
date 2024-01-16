@@ -10,7 +10,7 @@ import VisiMisi from '@/components/VisiMisi'
 export default function Home() {
   return (
     <main className='my-5'>
-      <div className='lg:mx-32'>
+      <div className='container'>
         <NavBar />
         <Jumbotron />
         <Tentang />

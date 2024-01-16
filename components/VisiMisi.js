@@ -4,7 +4,7 @@ const Font = Montserrat({ subsets: ['latin'] })
 
 function VisiMisi() {
     return (
-        <div className="mx-5 mt-7 lg:flex lg:mt-40 gap-4">
+        <div className="mx-5 mt-7 lg:flex lg:mt-30 gap-4">
             <div id="visi">
                 <h1 className="text-transform: uppercase font-bold text-2xl text-center" id="tentang_kami">Visi</h1>
                 <hr class="h-px my-4 lg:my-8 bg-gray-200 border-0 dark:bg-gray-700" />
