@@ -53,19 +53,17 @@ li a:hover:after {
 }
 
 #jumbotron h2 {
-    font-size: 24px;
     font-weight: 500;
 }
 
 #jumbotron h1 {
-    font-size: 48px;
     font-weight: 700;
     align-items: center;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
 
     color: #FFFFFF;
 
-    text-shadow: 3px 7px 4.9px #000000;
+    /* text-shadow: 2px 2px 4.9px #000000; */
 }
 
 #background-jumbotron {

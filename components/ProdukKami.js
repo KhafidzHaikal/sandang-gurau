@@ -9,13 +9,22 @@ import {
     CarouselPrevious,
 } from "@/components/ui/carousel"
 import Image from "next/image"
+import Autoplay from "embla-carousel-autoplay"
+// import * as React from "react"
 
 function ProdukKami() {
+
     return (
         <div className="text-white text-center mt-40" id="bagian_produk_kami">
             <h1 className="text-transform: uppercase font-bold text-2xl" id='tentang_kami'>Produk Kami</h1>
             <div className="flex justify-center mt-5">
-                <Carousel className="w-full max-w-xs">
+                <Carousel className="w-full max-w-xs"
+                    plugins={[
+                        Autoplay({
+                            delay: 3000,
+                        }),
+                    ]}
+                >
                     <CarouselContent>
                         <CarouselItem>
                             <div className="p-1">
@@ -255,10 +264,12 @@ function ProdukKami() {
                                 </Card>
                             </div>
                         </CarouselItem>
-                        
+
                     </CarouselContent>
+                    <div className="invisible lg:visible">
                     <CarouselPrevious />
                     <CarouselNext />
+                    </div>
                 </Carousel>
             </div>
         </div>
