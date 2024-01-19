@@ -16,7 +16,19 @@ function ProdukKami() {
 
     return (
         <div className="text-white text-center mt-40" id="bagian_produk_kami">
-            <h1 className="text-transform: uppercase font-bold text-2xl" id='tentang_kami'>Produk Kami</h1>
+            <Image
+            src="https://i.ibb.co/Lv0tzCf/3.png"
+            width={0}
+            height={0}
+            sizes="100vw"
+            // style={{ width: '100%', height: 'auto', objectFit: 'fill' }}
+            className='absolute -z-20 left-0 -mt-40 lg:-z-10 lg:-mt-20'
+            alt=''
+            id='background-jumbotron'
+          />
+          <div className='backdrop-opacity-0 backdrop-invert bg-black/60 absolute left-0 -mt-40 lg:-mt-20 w-full h-full -z-10 bg-gradient-to-r from-white/5 to-black/20'>
+          </div>
+            <h1 className="text-transform: uppercase font-bold text-2xl shadow-4xl" id='tentang_kami'>Produk Kami</h1>
             <div className="flex justify-center mt-5">
                 <Carousel className="w-full max-w-xs"
                     plugins={[
@@ -272,6 +284,7 @@ function ProdukKami() {
                     </div>
                 </Carousel>
             </div>
+            
         </div>
     )
 }
