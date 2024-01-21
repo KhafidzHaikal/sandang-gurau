@@ -22,11 +22,23 @@ export default function Home() {
             height={0}
             sizes="100vw"
             // style={{ width: '100%', height: 'auto', objectFit: 'fill' }}
+            className='absolute -z-10 left-0 '
+            alt=''
+            id='background-jumbotron'
+          />
+          <div className='backdrop-opacity-0 backdrop-invert bg-black/20 absolute left-0 w-full h-full -z-10 bg-gradient-to-r from-white/5 to-black/20'>
+          </div>
+          <Image
+            src="https://i.ibb.co/3N4BFnk/2.png"
+            width={0}
+            height={0}
+            sizes="100vw"
+            // style={{ width: '100%', height: 'auto', objectFit: 'fill' }}
             className='absolute -z-10 left-0 -mt-10'
             alt=''
             id='background-jumbotron'
           />
-          <div className='backdrop-opacity-0 backdrop-invert bg-black/20 absolute left-0 -mt-10 w-full h-full -z-10 bg-gradient-to-r from-white/5 to-black/20'>
+          <div className='backdrop-opacity-0 backdrop-invert bg-black/20 absolute -mt-10 left-0 w-full h-full -z-10 bg-gradient-to-r from-white/5 to-black/20'>
 
           </div>
           <Tentang />

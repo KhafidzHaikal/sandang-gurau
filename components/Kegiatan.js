@@ -36,7 +36,7 @@ function Kegiatan() {
                 <Carousel className="w-full max-w-screen-lg"
                     plugins={[
                         Autoplay({
-                            delay: 3000,
+                            delay: 3500,
                         }),
                     ]}
                 >
