@@ -74,6 +74,7 @@ li a:hover:after {
 
 #tentang_kami {
     color: #AC6E4C;
+    /* text-shadow: 1px 1px 1px rgb(255, 255, 255); */
 }
 
 span{

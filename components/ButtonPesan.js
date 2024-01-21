@@ -4,7 +4,7 @@ import Image from "next/image"
 
 function ButtonPesan() {
     return (
-        <div className="text-white text-center mt-40">
+        <div className="text-white text-center mt-20">
             <h1 className="text-transform: uppercase font-bold text-2xl" id='tentang_kami'>Pesan Sekarang</h1>
             <div className="flex gap-7 justify-center mt-5">
                 <Button><a href="https://shopee.co.id/sandanggurau.id" className="flex items-center"><SiShopee className="mr-2" />Sandanggurau.id</a></Button>

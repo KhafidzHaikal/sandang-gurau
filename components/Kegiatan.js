@@ -31,9 +31,9 @@ function Kegiatan() {
             <div className='backdrop-opacity-0 backdrop-invert bg-black/20 absolute left-0 -mt-10 w-full h-full -z-10 bg-gradient-to-r from-white/5 to-black/20'>
 
             </div>
-            <h1 className="text-transform: uppercase font-bold text-2xl" id='tentang_kami'>Kegiatan Kami</h1>
+            <h1 className="text-transform: uppercase font-bold text-2xl drop-shadow-2xl" id='tentang_kami'>Kegiatan Kami</h1>
             <div className="flex justify-center">
-                <Carousel className="w-full max-w-screen-lg"
+                <Carousel className="w-full max-w-screen-lg relative left-0"
                     plugins={[
                         Autoplay({
                             delay: 3500,
@@ -42,7 +42,7 @@ function Kegiatan() {
                 >
                     <CarouselContent>
                         <CarouselItem>
-                            <h1 className={`${Local.className} relative top-10 text-black drop-shadow-2xl`}>Jakloth Semarang 2023</h1>
+                            <h1 className={`${Local.className} relative top-10 lg:left-72 text-black drop-shadow-2xl text-sm lg:text-2xl`}>Event Jakloth Semarang 2023</h1>
                             <Image
                                 src="https://i.ibb.co/K7djbms/5.png"
                                 width={0}
@@ -50,11 +50,10 @@ function Kegiatan() {
                                 sizes="100vw"
                                 style={{ width: '100%', height: 'auto', objectFit: 'fill' }}
                                 alt=''
-                                id='background-jumbotron'
                             />
                         </CarouselItem>
                         <CarouselItem>
-                            <h1 className={`${Local.className} relative top-10 text-black drop-shadow-2xl`}>Ternyata Kolektif 2023</h1>
+                            <h1 className={`${Local.className} relative top-10 lg:-left-72 text-black drop-shadow-2xl text-sm lg:text-2xl`}>Event Ternyata Kolektif 2023</h1>
                             <Image
                                 src="https://i.ibb.co/DQQwWP8/4.png"
                                 width={0}
