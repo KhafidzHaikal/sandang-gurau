@@ -14,8 +14,12 @@ nav a{
     color: #AC6E4C;
 }
 
+li {
+    list-style-type: none;
+}
+
 li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 
     display: inline-block;
@@ -25,14 +29,15 @@ li a {
 
 li a:after {
     background: none repeat scroll 0 0 transparent;
-    bottom: 0;
+    
     content: "";
     display: block;
-    height: 1px;
+    height: 2px;
     left: 0;
     /* top: 2em; */
     position: absolute;
-    background: #fff;
+    bottom: 0;
+    background: rgb(255, 255, 255);
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }

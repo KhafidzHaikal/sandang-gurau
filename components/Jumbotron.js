@@ -5,7 +5,7 @@ import ImportFont from 'next/font/local'
 
 const Font = Montagu_Slab({ subsets: ['latin'] })
 
-const Local = ImportFont({ src:'./CooperFiveOpti-Black.otf'})
+const Local = ImportFont({ src: './CooperFiveOpti-Black.otf' })
 
 function Jumbotron() {
     return (
@@ -27,22 +27,26 @@ function Jumbotron() {
                 <div className='text-white text-center mt-48 z-20' id='jumbotron'>
                     <h1 className={`${Local.className} relative -top-2 text-4xl lg:text-7xl drop-shadow-2xl`}>Sandang Gurau</h1>
                     <h2 className={`${Font.className} drop-shadow-md mb-3`}>Available On</h2>
-                    <Button className="rounded-full bg-white w-15 h-15 items-center hover:bg-white">
-                        <Image
-                            src="https://i.ibb.co/ZKP3wcZ/berita-tokopedia-info-berita-terbaru-tokopedia-6.png"
-                            width={40}
-                            height={40}
-                            alt=""
-                        />
-                    </Button>
-                    <Button className="rounded-full bg-white w-15 h-15 items-center hover:bg-white ml-3">
-                        <Image
-                            src="https://i.ibb.co/Mn7C6jg/shopee-bag-logo-free-transparent-icon-17.png"
-                            width={40}
-                            height={40}
-                            alt=""
-                        />
-                    </Button>
+                    <a href='https://www.tokopedia.com/sandanggurau'>
+                        <Button className="rounded-full bg-white w-15 h-15 items-center hover:bg-white">
+                            <Image
+                                src="https://i.ibb.co/ZKP3wcZ/berita-tokopedia-info-berita-terbaru-tokopedia-6.png"
+                                width={40}
+                                height={40}
+                                alt=""
+                            />
+                        </Button>
+                    </a>
+                    <a href='https://shopee.co.id/sandanggurau.id'>
+                        <Button className="rounded-full bg-white w-15 h-15 items-center hover:bg-white ml-3">
+                            <Image
+                                src="https://i.ibb.co/Mn7C6jg/shopee-bag-logo-free-transparent-icon-17.png"
+                                width={40}
+                                height={40}
+                                alt=""
+                            />
+                        </Button>
+                    </a>
                 </div>
             </div>
         </div>
