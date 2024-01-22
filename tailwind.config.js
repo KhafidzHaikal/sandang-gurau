@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+      flex: {
+        full: "0 0 100%",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

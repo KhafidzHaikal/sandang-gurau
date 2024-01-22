@@ -15,7 +15,7 @@ import Autoplay from "embla-carousel-autoplay"
 function ProdukKami() {
 
     return (
-        <div className="text-white text-center mt-40" id="bagian_produk_kami">
+        <div className="text-white text-center mt-40" id="bagian_produk">
             <Image
             src="https://i.ibb.co/Lv0tzCf/3.png"
             width={0}
@@ -33,7 +33,7 @@ function ProdukKami() {
                 <Carousel className="w-full max-w-xs"
                     plugins={[
                         Autoplay({
-                            delay: 3000,
+                            delay: 5000,
                         }),
                     ]}
                 >
