@@ -17,26 +17,13 @@ const Local = ImportFont({ src: './CooperFiveOpti-Black.otf' })
 
 function Kegiatan() {
     return (
-        <div className="text-white text-center mt-40" id="bagian_kegiatan">
-            <Image
-                src="https://i.ibb.co/3N4BFnk/2.png"
-                width={0}
-                height={0}
-                sizes="100vw"
-                // style={{ width: '100%', height: 'auto', objectFit: 'fill' }}
-                className='absolute -z-10 left-0 -mt-10'
-                alt=''
-                id='background-jumbotron'
-            />
-            <div className='backdrop-opacity-0 backdrop-invert bg-black/20 absolute left-0 -mt-10 w-full h-full -z-10 bg-gradient-to-r from-white/5 to-black/20'>
-
-            </div>
-            <div id='tentang_kami'>
+        <div className="text-white text-center mt-30" id="bagian_kegiatan">
+            <div id='tentang_kami' className="mt-10">
 
             <h1 className="text-transform: uppercase font-bold text-2xl drop-shadow-2xl lg:hidden" >Kegiatan Kami</h1>
             </div>
             <div className="flex justify-center">
-                <Carousel className="flex-full lg:-mt-20"
+                <Carousel className="flex-full"
                     plugins={[
                         Autoplay({
                             delay: 6000,
