@@ -58,7 +58,7 @@ function ProdukKami() {
                         <CarouselItem>
                             <div className="p-1">
                                 <Card>
-                                    <span className="relative top-4" >RINTO HARAP CLASSIC POP</span>
+                                    <span className="relative top-4" >U2 GLORIA CHINESE EDITION</span>
                                     <CardContent className="aspect-square items-center justify-center mt-4 p-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
                                         <Image
                                             src="https://i.ibb.co/86WS1d5/IMG-5059.jpg"
@@ -75,7 +75,7 @@ function ProdukKami() {
                         <CarouselItem>
                             <div className="p-1">
                                 <Card>
-                                    <span className="relative top-4" >RINTO HARAP CLASSIC POP</span>
+                                    <span className="relative top-4" >RAJA POP X RAJA LELE</span>
                                     <CardContent className="aspect-square items-center justify-center mt-4 p-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
                                         <Image
                                             src="https://i.ibb.co/FWfNy5X/IMG-5060.jpg"
@@ -92,7 +92,7 @@ function ProdukKami() {
                         <CarouselItem>
                             <div className="p-1">
                                 <Card>
-                                    <span className="relative top-4" >RINTO HARAP CLASSIC POP</span>
+                                    <span className="relative top-4" >RAJA POP X RAJA LELE</span>
                                     <CardContent className="aspect-square items-center justify-center mt-4 p-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
                                         <Image
                                             src="https://i.ibb.co/T2xg1bF/IMG-5061.jpg"
@@ -126,7 +126,7 @@ function ProdukKami() {
                         <CarouselItem>
                             <div className="p-1">
                                 <Card>
-                                    <span className="relative top-4" >RINTO HARAP CLASSIC POP</span>
+                                    <span className="relative top-4" >U2 GLORIA CHINESE EDITION</span>
                                     <CardContent className="aspect-square items-center justify-center mt-4 p-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
                                         <Image
                                             src="https://i.ibb.co/VVFnQH8/IMG-5065.jpg"
@@ -143,7 +143,7 @@ function ProdukKami() {
                         <CarouselItem>
                             <div className="p-1">
                                 <Card>
-                                    <span className="relative top-4" >RINTO HARAP CLASSIC POP</span>
+                                    <span className="relative top-4" >THE DOORS X DEDDY DORES</span>
                                     <CardContent className="aspect-square items-center justify-center mt-4 p-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
                                         <Image
                                             src="https://i.ibb.co/V3nBXhx/IMG-5067.jpg"
@@ -160,7 +160,7 @@ function ProdukKami() {
                         <CarouselItem>
                             <div className="p-1">
                                 <Card>
-                                    <span className="relative top-4" >RINTO HARAP CLASSIC POP</span>
+                                    <span className="relative top-4" >THE DOORS X DEDDY DORES</span>
                                     <CardContent className="aspect-square items-center justify-center mt-4 p-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
                                         <Image
                                             src="https://i.ibb.co/mHGwsMZ/IMG-5069.jpg"
@@ -177,7 +177,7 @@ function ProdukKami() {
                         <CarouselItem>
                             <div className="p-1">
                                 <Card>
-                                    <span className="relative top-4" >RINTO HARAP CLASSIC POP</span>
+                                    <span className="relative top-4" >DUL ANAK SEKOLAHAN</span>
                                     <CardContent className="aspect-square items-center justify-center mt-4 p-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
                                         <Image
                                             src="https://i.ibb.co/hCf7M8M/IMG-5070.jpg"
@@ -194,7 +194,7 @@ function ProdukKami() {
                         <CarouselItem>
                             <div className="p-1">
                                 <Card>
-                                    <span className="relative top-4" >RINTO HARAP CLASSIC POP</span>
+                                    <span className="relative top-4" >KISS PLUS</span>
                                     <CardContent className="aspect-square items-center justify-center mt-4 p-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
                                         <Image
                                             src="https://i.ibb.co/vjRKSwK/IMG-5071.jpg"
@@ -211,7 +211,7 @@ function ProdukKami() {
                         <CarouselItem>
                             <div className="p-1">
                                 <Card>
-                                    <span className="relative top-4" >RINTO HARAP CLASSIC POP</span>
+                                    <span className="relative top-4" >KISS PLUS</span>
                                     <CardContent className="aspect-square items-center justify-center mt-4 p-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
                                         <Image
                                             src="https://i.ibb.co/7X7TYj0/IMG-5073.jpg"
@@ -228,7 +228,7 @@ function ProdukKami() {
                         <CarouselItem>
                             <div className="p-1">
                                 <Card>
-                                    <span className="relative top-4" >RINTO HARAP CLASSIC POP</span>
+                                    <span className="relative top-4" >BROERY X BOWIE</span>
                                     <CardContent className="aspect-square items-center justify-center mt-4 p-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
                                         <Image
                                             src="https://i.ibb.co/RSqtMhQ/IMG-5074.jpg"
@@ -245,7 +245,7 @@ function ProdukKami() {
                         <CarouselItem>
                             <div className="p-1">
                                 <Card>
-                                    <span className="relative top-4" >RINTO HARAP CLASSIC POP</span>
+                                    <span className="relative top-4" >BROERY X BOWIE</span>
                                     <CardContent className="aspect-square items-center justify-center mt-4 p-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
                                         <Image
                                             src="https://i.ibb.co/m43dsMk/IMG-5075.jpg"
